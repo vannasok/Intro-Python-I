@@ -29,12 +29,12 @@ print(sys.version_info)
 
 # Print the current process ID
 # YOUR CODE HERE
-print(os.geteuid())
+print('process ID: ' + str(os.getpid()))
 
 # Print the current working directory (cwd):
 # YOUR CODE HERE
-print(os.getcwd())
+print("working dir: "+os.getcwd())
 
 # Print out your machine's login name
 # YOUR CODE HERE
-print(getpass.getuser())
+print('login name: '+getpass.getuser())
