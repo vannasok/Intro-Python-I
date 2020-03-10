@@ -1,0 +1,4 @@
+adding text for bar.text
+test
+run
+done
